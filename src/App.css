@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* Thêm vào CSS của App hoặc một file CSS chung */
+html, body {
+  height: 100%; /* Đảm bảo chiều cao đầy đủ */
+  margin: 0; /* Loại bỏ margin mặc định */
+}
+
+body {
+  display: flex;
+  flex-direction: column; /* Đặt chiều dọc */
+}
+
+div {
+  flex: 1; /* Để content lấp đầy không gian còn lại */
+}
+
+
